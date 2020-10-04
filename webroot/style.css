@@ -3,18 +3,23 @@ body {
     background-color: #0f0e17;
 }
 
+body > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 h1, h2, h3 {
     color: #fffffe;
 }
 
 ul {
     list-style: none;
-    padding: 0;
 }
 
 a {
     text-decoration: none;
-    color: ;
+    color: #bae8e8;
 }
 
 p {
@@ -27,6 +32,7 @@ margin-right: 1rem;
 
 .menu ul {
     display: flex;
+    padding: 0;
 }
 
 .menu a {
